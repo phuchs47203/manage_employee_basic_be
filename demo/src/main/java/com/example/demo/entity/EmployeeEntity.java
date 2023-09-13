@@ -33,7 +33,7 @@ public class EmployeeEntity {
     private String addressString;
 
     @Lob
-    @Column(length = 80000)
+    @Column(length = 100000)
     private String ProfilePictureString;
     private String timeStamp;
     private String imageName;
